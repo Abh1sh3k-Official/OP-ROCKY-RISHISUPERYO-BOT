@@ -16,7 +16,7 @@ import telegram.ext as tg
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
     handlers=[
-        logging.FileHandler("Elizabeth-log.txt"),
+        logging.FileHandler("Rishisuperyo-log.txt"),
         logging.StreamHandler(),
     ],
     level=logging.INFO,
@@ -24,7 +24,7 @@ logging.basicConfig(
 
 LOGGER = logging.getLogger(__name__)
 
-LOGGER.info("Starting Elizabeth...")
+LOGGER.info("Starting OP-ROCKY-RISHISUPERYO-BOT...⚡")
 
 # if version < 3.8, stop bot.
 if sys.version_info[0] < 3 or sys.version_info[1] < 8:
