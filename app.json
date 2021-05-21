@@ -1,0 +1,168 @@
+{
+  "name": "OP ROCKY RISHISUPERYO BOT",
+  "description": "A Powerful Telegram Bot made by @Rishisuperyo",
+  "logo": "https://telegra.ph/file/565caa7476ff1f50fcc7e.jpg",
+  "keywords": ["telegram-bot"],
+  "repository": "https://github.com/Rishisuperyo-Op/OP-ROCKY-RISHISUPERYO-BOT-",
+  "env": {
+    "API_ID": {
+      "description": "Get this value from my.telegram.org! Please do not steal",
+      "value": "",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Get this value from my.telegram.org! Please do not steal",
+      "value": "",
+      "required": true
+    },
+    "TOKEN": {
+      "description": "Apna nikal @botfather sa",
+      "value": "",
+      "required": true
+    },
+    "SQLALCHEMY_DATABASE_URI": {
+      "description": "No need change",
+      "required": false,
+      "value": "sqldbtype://username:pw@hostname:port/db_name"
+    },
+    "ENV": {
+     "description": "Isko set karo to ANYTHING..",
+     "value": "ANYTHING"
+    },
+    "API_OPENWEATHER": {
+      "description": "Get your own APPID from https://api.openweathermap.org/data/2.5/weather",
+      "value": "",
+      "required": false
+    },
+    "IBM_WATSON_CRED_URL": {
+      "description": "This is required for the speech to text module. Get your USERNAME from https://console.bluemix.net/docs/services/speech-to-text/getting-started.html",
+      "required": false
+    },
+    "IBM_WATSON_CRED_PASSWORD": {
+      "description": "This is required for the speech to text module. Get your PASSWORD from https://console.bluemix.net/docs/services/speech-to-text/getting-started.html",
+      "required": false
+    },
+    "GBAN_LOGS": {
+      "description": "The group id for logging all gbans.. ⚠️ Remember:- You must add your bot to that group..",
+      "value": "",
+      "required": true
+    },
+    "DONATION_LINK": {
+      "description": "Enter Donation link..",
+      "required": false,
+      "value": "https://t.me/mr_srlock"
+    },
+    "SUDO_USERS": {
+      "description": "List of user id's who will have SUDO rights in your bot(they can't be banned/warned etc. by the bot)",
+      "value": "1024689872,1700914095",
+      "required": false
+    },
+    "SUPPORT_USERS": {
+      "description": "Support users Id's.",
+      "required": false,
+      "value": "1584907723"
+   },
+   "WHITELIST_USERS": {
+     "description": "Whitelist user Id's.",
+     "required": false,
+     "value": "1700914095,1024689872"
+   },
+   "DEV_USERS": {
+     "description": "Developers id",
+     "required": false,
+     "value": "1024689872,1700914095"
+   },
+   "WEBHOOK": {
+      "description": "Nothing here.",
+      "required": false,
+      "value": ""
+    },
+    "PORT": {
+      "description": "No need change.",
+      "required": false,
+      "value": ""
+    },
+    "YOUTUBE_API_KEY": {
+      "description": "Place your YouTube API Key here",
+      "value": "",
+      "required": false
+    },
+    "OWNER_ID": {
+      "description": "An integer of consisting of your ID",
+      "value": "",
+      "required": true
+    },
+    "TEMP_DOWNLOAD_DIRECTORY": {
+      "description": "Do not edit this.",
+      "value": "./",
+      "required": false
+    },
+    "OWNER_USERNAME": {
+      "description": "MERA USERNAME BIDU😎",
+      "value": "@RISHISUPERYO",
+      "required": true
+    },
+    "DEL_CMDS": {
+      "description": "Delete devs cmds from users",
+      "value": "False",
+      "required": false
+    },
+    "CUSTOM_CMD": {
+      "description": "Custom command handler..",
+      "required": false,
+      "value": ""
+    },
+    "URL": {
+      "description": "The Heroku App URL :- edit this to your app name https://your app name.herokuapp.com/",
+      "required": false,
+      "value": ""
+    },
+    "MESSAGE_DUMP": {
+      "description": "A chat for logging bot event",
+      "value": "",
+      "required": true
+    },
+    "TIME_API_KEY": {
+      "description": "Required for timezone information",
+      "value": "",
+      "required": false
+    },
+    "CASH_API_KEY": {
+      "description": "Required for currency converter",
+      "value": "",
+      "required": false
+    },
+    "WALL_API": {
+      "description": "Get one from https://wall.alphacoders.com/api.php",
+      "value": "",
+      "required": false
+    },   
+    "ALLOW_EXCL": {
+      "description": "No need change",
+      "value": "True"
+    },
+    "STRICT_GBAN": {
+      "description": "Meri marzi gban kisko du ya na du ",
+      "value": "True",
+      "required": false
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "1"
+      }
+    }
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-python"
+
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    }
+  ]
+}
+
