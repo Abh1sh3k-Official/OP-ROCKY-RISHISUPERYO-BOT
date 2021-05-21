@@ -1,0 +1,8 @@
+if [ -f Rishisuperyo.session ]; then
+    kill $(pgrep -f 'python3 -m Rishisuperyo')
+    rm -f Elizabeth.session-journal Rishisuperyo.session
+fi
+
+# start
+python3 -m Rishisuperyo
+© 2021 GitHub, Inc.
