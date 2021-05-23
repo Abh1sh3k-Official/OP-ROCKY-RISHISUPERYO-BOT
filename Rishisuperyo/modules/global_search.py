@@ -3,8 +3,8 @@ import os
 import requests
 from bs4 import BeautifulSoup
 from datetime import datetime
-from Elizabeth.events import register
-from Elizabeth import client
+from Rishisuperyo.events import register
+from Rishisuperyo import client
 import sys
 import shutil
 from re import findall
