@@ -8,15 +8,15 @@ from telegram.error import BadRequest
 from telegram.ext import CommandHandler, Filters, run_async
 from telegram.utils.helpers import escape_markdown
 
-import Elizabeth.modules.helper_funcs.fun_strings as fun
-from Elizabeth import DEV_USERS, LOGGER, SUDO_USERS, SUPPORT_USERS, dispatcher
-from Elizabeth.modules.disable import (
+import Rishisuperyo.modules.helper_funcs.fun_strings as fun
+from Rishisuperyo import DEV_USERS, LOGGER, SUDO_USERS, SUPPORT_USERS, dispatcher
+from Rishisuperyo.modules.disable import (
     DisableAbleCommandHandler,
     DisableAbleMessageHandler,
 )
-from Elizabeth.modules.helper_funcs.alternate import typing_action
-from Elizabeth.modules.helper_funcs.extraction import extract_user
-from Elizabeth.modules.helper_funcs.filters import CustomFilters
+from Rishisuperyo.modules.helper_funcs.alternate import typing_action
+from Rishisuperyo.modules.helper_funcs.extraction import extract_user
+from Rishisuperyo.modules.helper_funcs.filters import CustomFilters
 
 
 @run_async
