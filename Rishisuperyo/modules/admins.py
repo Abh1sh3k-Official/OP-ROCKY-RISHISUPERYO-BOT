@@ -125,7 +125,7 @@ def demote(update, context):
         return ""
 
     if user_id == context.bot.id:
-        message.reply_text("Yeahhh... Not gonna demote myself!"😂)
+        message.reply_text("Yeahhh... Not gonna demote myself!😂")
         return ""
 
     try:
