@@ -1,9 +1,4 @@
 #kang = keep credits else faltu coder kanger bhag yaha sa 
-
-
-
-
-
 import logging
 import time
 import os
