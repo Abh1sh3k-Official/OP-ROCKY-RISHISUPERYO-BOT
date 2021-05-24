@@ -33,7 +33,7 @@ from Rishisuperyo import (
 from Rishisuperyo.modules import ALL_MODULES
 from Rishisuperyo.modules.purge import client
 from Rishisuperyo.modules.helper_funcs.chat_status import is_user_admin
-from Rishisuperyo.modules.helper_funcs.filters import CustomFilters
+from Rishisuperyo.modules.helper_funcs.filters import OpCustomFilters
 from Rishisuperyo.modules.helper_funcs.misc import paginate_modules
 from Rishisuperyo.modules.helper_funcs.alternate import typing_action
 
