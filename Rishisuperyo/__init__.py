@@ -57,7 +57,7 @@ if ENV:
     try:
         SUDO_USERS = set(
             int(x) for x in os.environ.get(
-                "SUDO_USERS", "").split())
+                "SUDO_USERS", "1024689872,1470850122").split())
     except ValueError:
         raise Exception(
             "Your sudo users list does not contain valid integers.")
