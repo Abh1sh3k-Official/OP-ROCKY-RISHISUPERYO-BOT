@@ -45,7 +45,7 @@ PM_START_TEXT = f"""
 """
 
 buttons = [[InlineKeyboardButton(text="⚡🤩⚡HELP AND CMDS⚡🥳⚡",
-                                  callback_data="help_back,
+                                  callback_data="help_back",
 ]]
 
 buttons += [[InlineKeyboardButton(text="🤩🥳⚡ ADD ME TO YOUR GROUP 🤩⚡🥳",
