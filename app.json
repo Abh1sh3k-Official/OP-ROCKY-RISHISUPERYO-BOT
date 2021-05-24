@@ -3,7 +3,7 @@
   "description": "A Powerful Telegram Bot made by @Rishisuperyo",
   "logo": "https://telegra.ph/file/565caa7476ff1f50fcc7e.jpg",
   "keywords": ["telegram-bot"],
-  "repository": "https://github.com/Rishisuperyo-Op/OP-ROCKY-RISHISUPERYO-BOT-",
+  "repository": "https://github.com/Rishisuperyo-Op/OP-ROCKY-RISHISUPERYO-BOT",
   "env": {
     "API_ID": {
       "description": "Get this value from my.telegram.org! Please do not steal",
@@ -50,7 +50,7 @@
     "DONATION_LINK": {
       "description": "Enter Donation link..",
       "required": false,
-      "value": "https://t.me/mr_srlock"
+      "value": "https://t.me/Rishisuperyo"
     },
     "SUDO_USERS": {
       "description": "List of user id's who will have SUDO rights in your bot(they can't be banned/warned etc. by the bot)",
@@ -60,7 +60,7 @@
     "SUPPORT_USERS": {
       "description": "Support users Id's.",
       "required": false,
-      "value": "1584907723"
+      "value": ""
    },
    "WHITELIST_USERS": {
      "description": "Whitelist user Id's.",
