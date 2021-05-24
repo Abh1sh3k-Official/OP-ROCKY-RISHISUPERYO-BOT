@@ -37,6 +37,7 @@ googletrans
 youtube-dl
 wikipedia
 spamwatch
+git+https://github.com/MR-SHRLCK/python-markdown2.git
 bleach
 alphabet_detector
 tswift
