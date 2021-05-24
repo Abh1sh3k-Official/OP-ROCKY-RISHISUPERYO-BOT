@@ -1,1 +1,1 @@
-worker: python3 -m Rishisuperyo-Op
+worker: python3 -m Rishisuperyo
