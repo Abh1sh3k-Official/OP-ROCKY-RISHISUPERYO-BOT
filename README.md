@@ -18,7 +18,7 @@ Version 1 😎
 
 
 
-[![telegram badge](https://img.shields.io/badge/Join Support Group-30302f?style=for-the-badge&logo=telegram)](https://t.me/Op_Rocky_Rishisuperyo_BotSupport)a
+[![telegram badge](https://img.shields.io/badge/Join Support Group-30302f?style=for-the-badge&logo=telegram)](https://t.me/Op_Rocky_Rishisuperyo_BotSupport)
 
 
 
