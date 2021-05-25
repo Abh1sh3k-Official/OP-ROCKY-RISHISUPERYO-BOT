@@ -5,7 +5,7 @@ from Rishisuperyo import SUPPORT_USERS, SUDO_USERS, DEV_USERS
 
 
 class CustomFilters(object):
-    class _Supporters(BaseFilter):
+    class __Supporters(BaseFilter):
         def filter(self, message: Message):
             return bool(
                 message.from_user
@@ -16,7 +16,7 @@ class CustomFilters(object):
                 and message.from_user.id in DEV_USERS
             )
 
-    support_filter = _Supporters()
+    support_filter = __Supporters()
 
     class _Sudoers(BaseFilter):
         def filter(self, message: Message):
