@@ -14,17 +14,13 @@ class CustomFilters(object):
     support_filter = _Supporters()
 
     class _Sudoers(BaseFilter):
-
         def filter(self, message: Message):
-            return bool(message.from_user and message.from_user.id in SUDO,_USERS
-
-    sudo_filter = _Sudoers()
-
-    class _Developers(BaseFilter):
-
-        def filter(self, message: Message):
-            return bool(message.from_user and message.from_user.id in DEV_USERS)
-
+            return bool(
+                message.from_user
+                and message.from_user.id in SUDO_USERS
+                or message.from_user
+                and message.from_user.id in DEV_USERS
+            )
     dev_filter = _Developers()
 
     class _MimeType(BaseFilter):
