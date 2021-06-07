@@ -16,7 +16,7 @@ class CustomFilters(object):
                 and message.from_user.id in DEV_USERS
             )
 
-    support_filter = _Supporters()
+    support_filter = __Supporters__()
 
     class _Sudoers(BaseFilter):
         def __filter__(self, message: Message):
