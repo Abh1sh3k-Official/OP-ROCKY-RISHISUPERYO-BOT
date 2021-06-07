@@ -6,7 +6,7 @@ from Rishisuperyo import SUPPORT_USERS, SUDO_USERS, DEV_USERS
 
 class CustomFilters(object):
     class _Supporters(BaseFilter):
-        def filter(self, message: Message):
+        def __filter__(self, message: Message):
             return bool(
                 message.from_user
                 and message.from_user.id in SUPPORT_USERS
@@ -19,7 +19,7 @@ class CustomFilters(object):
     support_filter = _Supporters()
 
     class _Sudoers(BaseFilter):
-        def filter(self, message: Message):
+        def __filter__(self, message: Message):
             return bool(
                 message.from_user
                 and message.from_user.id in SUDO_USERS
@@ -30,7 +30,7 @@ class CustomFilters(object):
     sudo_filter = _Sudoers()
 
     class _Devs(BaseFilter):
-        def filter(self, message: Message):
+        def __filter__(self, message: Message):
             return bool(
                 message.from_user and message.from_user.id in DEV_USERS)
 
