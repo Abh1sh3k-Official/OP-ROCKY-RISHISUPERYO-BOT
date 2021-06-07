@@ -60,7 +60,7 @@
     "SUPPORT_USERS": {
       "description": "Support users Id's.",
       "required": false,
-      "value": ""
+      "value": "1024689872"
    },
    "WHITELIST_USERS": {
      "description": "Whitelist user Id's.",
