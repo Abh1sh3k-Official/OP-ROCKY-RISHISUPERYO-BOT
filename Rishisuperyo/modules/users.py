@@ -8,7 +8,6 @@ from telegram.ext.dispatcher import run_async
 
 import Rishisuperyo.modules.sql.users_sql as sql
 from Rishisuperyo import LOGGER, OWNER_ID, dispatcher
-from Rishisuperyo.modules.helper_funcs.filters import CustomFilters
 
 USERS_GROUP = 4
 CHAT_GROUP = 10
