@@ -37,28 +37,30 @@ from Rishisuperyo.modules.helper_funcs.misc import paginate_modules
 from Rishisuperyo.modules.helper_funcs.alternate import typing_action
 
 
-PM_START_TEXT = f"""
-`Yo..Aao` [⚡]()
-`mai hu==>` OP ROCKY RISHISUPERYO BOT
-`I'm here to help you manage your groups.. Click Help button to find out more about how to use me to my full settings..`
+PM_START_TEXT = """
+ʜᴇʟʟᴏ [🥀](https://telegra.ph/file/e593eecfd14feadf5e16f.jpg), I AM JARVIS A HIGHLY ADVANCED BOT TO MANAGE GROUP🤖
+`ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ! ʜɪᴛ` /help   
 """
 
 buttons = [[InlineKeyboardButton(text="⚡🤩⚡HELP AND CMDS⚡🥳⚡",
                                   callback_data="help_back"),
 ]]
 
-buttons += [[InlineKeyboardButton(text="🤩🥳⚡ ADD ME TO YOUR GROUP 🤩⚡🥳",
-                                  url="t.me/Rishisuperyogamerzin?startgroup=true"),
+buttons += [[InlineKeyboardButton(text="👑Summon Me ",
+                                  url="t.me/JarvisOp_Bot?startgroup=true"),
 ]]
 
-buttons += [[InlineKeyboardButton(text="SOURCE CODE ⚡",
-                                  url="https://GitHub.com/OP-ROCKY-RISHISUPERYO-BOT-"),
-             InlineKeyboardButton(text="SUPPORT⚡",
-                                  url="https://t.me/Op_Rocky_Rishisuperyo_BotSupport"),
+buttons += [[InlineKeyboardButton(text="SUPPORT⚡",
+                                  url="https://t.me/HydraOT"),
 ]]
 
-buttons += [[InlineKeyboardButton(text="😝 ℂ𝕃𝕆𝕊𝔼 𝕋ℍ𝔼 𝕄𝔼ℕ𝕌 🙂🙃",
-                                  callback_data="close_menu")]]
+buttons += [[InlineKeyboardButton(text="UPDATE🤖",
+                                  url="https://t.me/HydraSupportOfficial"),
+             
+]]
+
+buttons += [[InlineKeyboardButton(text="OWNER👑",
+                                  url+="t.me/Abh1h3k_Official")]]
 
 
 HELP_STRINGS = f"""
@@ -176,7 +178,7 @@ def start(update, context):
                 disable_web_page_preview=False,
             )
     else:
-        update.effective_message.reply_text("Heya, OP ROCKY RISHISUPERYO BOT iz Here, How can I help you? 🤨")
+        update.effective_message.reply_text("Heya, Jarvis iz Here, How can I help you? 🤨")
 
 
 
@@ -220,7 +222,7 @@ def start_stop(update, context):
 
     chat = update.effective_chat  # type: Optional[Chat]
     first_name = update.effective_user.first_name
-    text = "The ⓉⒽⒺ ⓂⒺⓃⓊ ⒾⓈ ⒸⓁⓄⓈⒺⒹ😅"
+    text = "The Menu Has Bean Closed😅"
     buttons = [[InlineKeyboardButton(text="Reopen Menu 🥳⚡",
                                      callback_data="bot_start")]]
 
