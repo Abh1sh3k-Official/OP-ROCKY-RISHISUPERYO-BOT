@@ -54,13 +54,8 @@ buttons += [[InlineKeyboardButton(text="SUPPORT⚡",
                                   url="https://t.me/HydraOT"),
 ]]
 
-buttons += [[InlineKeyboardButton(text="UPDATE🤖",
-                                  url="https://t.me/HydraSupportOfficial"),
-             
-]]
-
-buttons += [[InlineKeyboardButton(text="OWNER👑",
-                                  url+="t.me/Abh1h3k_Official")]]
+buttons += [[InlineKeyboardButton(text="😝 ℂ𝕃𝕆𝕊𝔼 𝕋ℍ𝔼 𝕄𝔼ℕ𝕌 🙂🙃",
+                                  callback_data="close_menu")]]
 
 
 HELP_STRINGS = f"""
